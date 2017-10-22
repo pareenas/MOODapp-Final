@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mood App</title>
+<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize"></script>
+</head>
+
+<body>
+<div id="banner">
+
+	<h1> Mood </h1>
+
+</div>
+<div id="leftbg"></div>
+<div id="container">
+
+
+	<div id="logo">
+
+	</div>
+	<form method="POST" action="map.html" >
+
+		<input type="text" placeholder="username"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'username'" />
+		<input type="text" placeholder="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'password'" />
+		<input type="submit" name="submit" id="button" value="log in"  style="height:20px; width:150px">
+	</form>
+	<form method="POST" action="registration.html" >
+
+		<input type="submit" name="submit" id="register" value="register"  style="height:20px; width:150px">
+	</form>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
